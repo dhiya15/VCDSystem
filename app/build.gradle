@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.app.vcdsystem"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        renderscriptTargetApi 25
+        renderscriptSupportModeEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions{
+        noCompress "tflite"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+apply plugin: 'kotlin-android'
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.github.capur16:digitspeedviewlib:1.0.3'
+    implementation 'com.github.anastr:speedviewlib:1.5.5'
+    implementation 'com.sohrab:obd-reader:1.0.0'
+    implementation 'me.aflak.libraries:bluetooth:1.3.9'
+    implementation "com.google.android.gms:play-services-location:17.0.0"
+    implementation 'com.github.pires:obd-java-api:1.0'
+    implementation 'androidx.biometric:biometric:1.0.1'
+    implementation 'com.kyleduo.blurpopupwindow:blurpopupwindow:1.0.9'
+    implementation 'org.tensorflow:tensorflow-lite:+'
+    implementation 'com.studioidan.httpagent:httpagent:1.0.16@aar'
+}

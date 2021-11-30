@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">VCDSystem</string>
+    <string name="settings">Paramètres</string>
+    <string name="command">Commande</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="map">Navigation</string>
+
+    <string name="coolant_temp">Liquide Refroi.</string>
+    <string name="max_speed">Vitèsse Max</string>
+    <string name="duration">Durée</string>
+    <string name="distance">Distance</string>
+    <string name="ambient_air_temp">Temp Ambiante</string>
+    <string name="module_voltage">Voltage du Batterie</string>
+    <string name="throttle_position">Position du Papillon</string>
+    <string name="intake_air_temp">Air d`admission</string>
+    <string name="obd_connected">OBD Connected</string>
+    <string name="connect_lost">Connect Lost</string>
+
+    <string name="connection_success">Connection Réussi</string>
+    <string name="connection_faild">Connection Echoé</string>
+    <string name="description1">Sélectionnez le communicant avec le calculateur, puis choisissez le bluetooth intégré dans le véhicule, puis appuyez sur Enregistrer. Si vous ne voyez pas vos appareils Bluetooth, appuyez sur Actualiser.</string>
+    <string name="obd2_blue">Calculateur</string>
+    <string name="arduino_blue">Bluetooth du véhicule</string>
+    <string name="arduino_gsm">GSM du véhicule</string>
+    <string name="arduino_gsmdesc">Saisir ici le GSM du véhicule</string>
+    <string name="save">Enregistrer</string>
+    <string name="refresh">Actualiser</string>
+    <string name="cmd_window">Commande</string>
+    <string name="on_off">Allumage</string>
+    <string name="lock_unlock">Verrou</string>
+    <string name="sound">Klaxon</string>
+    <string name="light">Coffre</string>
+    <string name="left">Gauche</string>
+    <string name="right">Droit</string>
+
+    <string name="lWindow1">Vitre 1</string>
+    <string name="lWindow2">Vitre 2</string>
+    <string name="rWindow1">Vitre 1</string>
+    <string name="rWindow2">Vitre 2</string>
+
+    <string name="pids_01_20">Vpids_01_20</string>
+    <string name="pids_21_40">pids_21_40</string>
+    <string name="pids_41_60">pids_41_60</string>
+    <string name="protocolCommand">Protocol du véhicule</string>
+
+    <string name="no_data">Pas de Données</string>
+    <string name="zoro_data">Pas Problèmes Trouvé</string>
+
+    <string name="dtc_number">Nombre de codes d`anomalie de diagnostic</string>
+    <string name="equivalent_ratio">Rapport équivalent</string>
+    <string name="ignition_monitor">Moniteur d`allumage</string>
+    <string name="timing_advance">Avance temporelle</string>
+    <string name="trouble_codes">Codes de problème</string>
+    <string name="vin">Plaque d`immatriculation</string>
+    <string name="absolute_load">Charge absolue</string>
+    <string name="engine_load">Charge du moteur</string>
+    <string name="mass_air_flow">Débit d`air massique</string>
+    <string name="oil_temp">Temp d`huile</string>
+    <string name="runtime">Durée</string>
+    <string name="air_fuel_ratio">Rapport air / carburant</string>
+    <string name="consumption_rate">Taux de consommation</string>
+    <string name="fuel_type">Type de carburant</string>
+    <string name="fuel_level">Niveau de carburant</string>
+
+    <string name="fuel_trim_long_bank_1">Garniture de carburant banque à long terme 1</string>
+    <string name="fuel_trim_short_bank_1">Garniture de carburant banque à court terme 1</string>
+    <string name="fuel_trim_long_bank_2">Garniture de carburant banque à long terme 2</string>
+    <string name="fuel_trim_short_bank_2">Garniture de carburant banque à court terme 2</string>
+
+    <string name="wideband_air_fuel_ratio">Rapport air-carburant à large bande</string>
+    <string name="intake_manifold_pressure">Pression du collecteur d`admission</string>
+    <string name="fuel_rail_pressure">Pression de la rampe de carburant</string>
+    <string name="fuel_pressure">Pression de carburant</string>
+    <string name="barometric_pressure">Pression barométrique</string>
+    <string name="permanent_trouble_codes">Codes de panne permanents</string>
+    <string name="pending_trouble_codes">Codes de panne en attente</string>
+    <string name="description">Plus de contrôle avec plus d`èefficacité, restez reposé !</string>
+    <string name="authenticate">Commencer</string>
+    <string name="secrut">Mot de passe</string>
+    <string name="user">Nom d`utilisateur</string>
+    <string name="forget_password">Mot de passe oublié</string>
+    <string name="voice">Vocal</string>
+    <string name="say_something">Dit quelque chose</string>
+    <string name="biometric_login">Authentification biométrique</string>
+    <string name="description_bio">Connectez-vous avec votre identifiant biométrique</string>
+    <string name="use_password">Utiliser le mot de passe</string>
+    <string name="auth_failed">Authentification échoué</string>
+    <string name="comm_way">Commande par</string>
+    <string name="blue">Bluetooth</string>
+    <string name="gsm">GSM</string>
+    <string name="click_to_show_fuel_positions">Afficher stations proche</string>
+
+    <string name="left_first_window">Premier vitre a gauche</string>
+    <string name="right_first_window">Premier vitre a droit</string>
+    <string name="left_second_window">Deuxième vitre a gauche</string>
+    <string name="right_second_window">Deuxième vitre a droit</string>
+    <string name="manipulate_window">Manipuler les vitre</string>
+    <string name="title_activity_navigation">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="rain">Pluvieux</string>
+    <string name="sun">Ensoleillé</string>
+    <string name="ac">Climatisation</string>
+    <string name="refil">Recharger</string>
+    <string name="refil2">Recharge (L)</string>
+    <string name="rest">Rest du reservoir</string>
+    <string name="liters">Litres</string>
+    <string name="send">Envoyer</string>
+    <string name="start">Démarrer</string>
+    <string-array name="types">
+        <item>Essence Normale</item>
+        <item>Essence Super</item>
+        <item>Essence super Sans plomb</item>
+        <item>Gasoil</item>
+        <item>GPL/C</item>
+    </string-array>
+
+    <string-array name="types2">
+        <item>SP98</item>
+        <item>E10</item>
+    </string-array>
+
+    <string name="enable_gps">Activer GPS Svp !</string>
+    <string name="consuming">Consom. dans 10KM</string>
+    <string name="data_collection">Collection des Données</string>
+    <string name="temp_inside">Température intérieur</string>
+    <string name="temp_outside">Température extérieur</string>
+    <!--
+        1- Select the bluetooth of the OBD II device, then choose the bluetooth embeded in the vehicle, then press Save. If you didn't see your bluetooth devices press refresh.
+        2- OBD II Bluetooth Devices
+        3- Vehicle Bluetooth Device
+    -->
+
+    <string name="full_name">Nom complet</string>
+    <string name="email">Email</string>
+    <string name="phone">Téléphone</string>
+    <string name="pass">Mot de passe</string>
+    <string name="make">Marque</string>
+    <string name="model">Modèle</string>
+    <string name="year">Année</string>
+    <string name="power">Puissance</string>
+    <string name="cylinder">Cylindres</string>
+    <string name="consuption">Conso. L/100KM</string>
+    <string name="distance2">Dist. parcourue</string>
+    <string name="i_have_account">J`ai un compte</string>
+    <string name="register">Crée un compte</string>
+    <string name="speed">Vitesse (KM/h)</string>
+    <string name="avg_speed">Vitesse Moyenne (KM/h)</string>
+    <string name="distance_droved">Distance (KM)</string>
+    <string name="distance_fuel_rest">Distance Carburant (KM)</string>
+</resources>
